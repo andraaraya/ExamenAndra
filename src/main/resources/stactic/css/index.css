@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 jun. 2022, 19:43:47
+    Author     : Andra Mckenzie Araya
+*/
+
+.block{
+    background-color: purple;
+    width:200px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid blue;
+    box-sizing:border-box;
+
+}
+
+.static{
+    position:static;
+    border:3px solid pink;
+    top:400px;
+    left:50px;
+}
+
+.relative{
+    position:relative;
+    border:3px solid pink;
+    top:400px;
+    left:50px;
+    width: 400px;
+    height: 450px
+}
+
+.fixed{
+    position:fixed;
+    border:3px solid pink;
+    top:150px;
+    left:50px;
+}
+.absolute{
+    position:absolute;
+    border:3px solid pink;
+    top: 60px;
+    left: 50px;
+    width: 400px;
+    height: 100px;
+}
